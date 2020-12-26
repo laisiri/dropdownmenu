@@ -1,0 +1,152 @@
+/*70af85 f0e2d0 aa8976*/
+*{
+    box-sizing: border-box ;
+}
+body{
+    background-color:rgb(167, 224, 205) ;
+}
+h3 {
+
+    position: relative;
+    color:#aa8976;
+    padding: 0 5px 0 5px;
+    margin: 0;
+    font-size: 16px;
+}
+h5 {
+    position: relative;
+    padding: 0px;
+    margin:0px;
+    font-size: 16px;
+}
+#flex-con > div {
+    float: left;
+    
+}
+#flex-con {
+    width:100%;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    background-color: rgb(53, 156, 122) ;
+}
+
+
+.list {
+    display: none;
+}
+.inList {
+    display: none;
+}
+.items .inList:hover {
+    display: block;
+}
+
+h3:hover  {
+
+    background-color: #ddd;
+    
+}
+
+ol {
+    
+    margin-left: 3px;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 150px;
+}
+span {
+    float: right;
+    width:10%;}
+li {
+    
+    color: #ac9486;
+    padding: 0 20px 0 3px;
+    font-size: 16px;
+    
+    
+}
+.list li:hover{
+    background-color: #ddd;
+}
+/*
+.list li {
+    position:stick;
+}*/
+.items:hover .list {
+    display:block;
+}
+.list {
+    position:absolute;
+    background-color: rgb(145, 223, 197) ;
+    padding: 0;
+    margin:0;
+    z-index: 1;
+}
+.items{
+    position: relative;
+    margin: 0;
+    padding:0;
+}
+
+.inItems:hover .inList {
+    display: block;
+    position:absolute;
+    background-color: rgb(145, 223, 197) ;
+    padding: 0;
+    margin:0;
+    transform: translate(148px, -18px);
+    
+}
+/*transform: translate(148px, -39px);*/
+/* ******************grid*************/
+#container {
+    clear:both;
+    display:grid;
+    background-color:rgb(81, 223, 176) ;
+    grid-template-columns: 8% 8% 8% 8% 8%;
+}
+
+.list-incon  {
+    display: none;
+}
+.in-container:hover .list-incon {
+    position:absolute;
+    display: block;
+    background-color: rgb(141, 197, 178);
+    width: 10%;
+    height: auto;
+}
+#gridItem-1:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+#gridItem-2:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+#gridItem-3:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+#gridItem-4:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+#gridItem-5:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+#gridItem-6:hover {
+    cursor:pointer;
+    background-color:rgb(141, 197, 178) ;
+}
+
+.list-incon li {
+    color:grey;
+}
+.list-incon li:hover {
+    position: relative;
+    background-color: white;
+    width: 90%;
+}
